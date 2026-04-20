@@ -1,21 +1,11 @@
 同步状态记录
 
-## 本地仓库状态
-- 所有 31 张图片 + 网站代码已提交到本地 git
-- 合并了远程原有的 `kimi web/` 目录（保留旧版本）
-- 新内容位于仓库根目录：`index.html`, `style.css`, `script.js`, `assets/`
+## 状态：✅ 已完成
 
-## GitHub 同步问题
-SSH key 无权限访问仓库，需要以下任一方式完成 push：
+**GitHub 同步时间**: 2026-04-21 00:50
+**仓库**: https://github.com/Liz7789/yaruresume
 
-**方式 A（推荐）：GitHub Token**
-```bash
-git remote set-url origin https://TOKEN@github.com/Liz7789/yaruresume.git
-git push origin main
-```
-
-**方式 B：手动下载上传**
-生成 zip → 下载 → 在本地解压 push
+本地所有内容已成功 push 到 main 分支。Token 已清除。
 
 ## 视频展示
 技术上可以嵌入视频（HTML5 `<video>` 标签），但建议：
