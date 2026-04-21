@@ -173,7 +173,7 @@ function animate() {
     mouse.y += (mouse.targetY - mouse.y) * 0.08;
     
     // Clear with trail effect
-    ctx.fillStyle = 'rgba(5, 5, 5, 0.15)';
+    ctx.fillStyle = 'rgba(250, 248, 255, 0.2)';
     ctx.fillRect(0, 0, width, height);
     
     // Draw flow lines
@@ -270,10 +270,10 @@ window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     
     if (currentScroll > 100) {
-        nav.style.background = 'rgba(5, 5, 5, 0.9)';
+        nav.style.background = 'rgba(255, 255, 255, 0.92)';
         nav.style.backdropFilter = 'blur(20px)';
     } else {
-        nav.style.background = 'rgba(5, 5, 5, 0.7)';
+        nav.style.background = 'rgba(255, 255, 255, 0.75)';
     }
     
     lastScroll = currentScroll;
